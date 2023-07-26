@@ -1,0 +1,36 @@
+.cardsTecs {
+    grid-template-columns: repeat(16, minmax(auto, 60px));
+}
+
+.cardsTecs, .cardsSoft {
+    grid-column: 2 / span 12;
+    display: grid;
+    column-gap: 40px;
+}
+
+.cardsSoft {
+    grid-template-columns: repeat(12, minmax(auto, 60px));
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.softTitle {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.titleAbilities {
+    display: flex;
+    justify-content: center;
+    color: #74d3ae;
+    font-weight: bold;
+    padding-bottom: 20px;
+}

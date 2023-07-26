@@ -1,0 +1,57 @@
+.NavbarItems {
+    background-color: #1F2235;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.navbar-logo {
+    color: #EE565E;
+    justify-self: start;
+    margin-left: 120px;
+    cursor: pointer;
+    margin-right: -100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fa-react {
+    margin-left: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    column-gap: 10px;
+    margin-right: 2rem;
+    margin-top: 8px;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+    background-color: violet;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.bg-dark {
+    background-color: #E0E0E0 !important;
+    z-index: 20;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-link {
+    color: black !important;
+}

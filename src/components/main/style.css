@@ -1,0 +1,242 @@
+.container-aboutMe {
+    padding-bottom: 59px;
+}
+
+.text-aboutMe {
+    font-size: 25px;
+    margin-top: 80px;
+    font-weight: bold;
+}
+
+.imgCv {
+    width: 70%;
+    border-radius: 40%;
+}
+
+.buttonCv {
+    background-color: #d2a1a3;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    font-weight: 600;
+}
+
+.buttonCv:hover {
+    background: rgb(173, 77, 165);
+    background: linear-gradient(0deg, rgb(192, 173, 199) 0%, rgb(210, 190, 217) 100%);
+    color: #393e41;
+    font-weight: bold;
+}
+
+.articleCv {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.icon {
+    padding-left: 10px;
+}
+
+.buttonContactme {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.containerInicial {
+    padding-bottom: 119px;
+    padding-top: 80px;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.squareContact {
+    border: 2px solid #D8C7C7;
+    width: 327px;
+    background: #1F2235;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    color: #EE565E;
+}
+
+h4,
+.contactme {
+    display: flex;
+    justify-content: center;
+}
+
+.contactme {
+    color: white;
+    font-weight: bold;
+}
+
+.fab {
+    font-weight: 400;
+    color: white;
+    font-size: xxx-large;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#contactame {
+    margin-top: 50px;
+}
+
+.display-1 {
+    color: #74d3ae;
+    font-weight: bold;
+
+}
+
+.inicial {
+    font-weight: 400;
+    color: #F8BBD0;
+}
+
+.p-program {
+    margin-top: 15px;
+    font-size: x-large;
+}
+
+h2 {
+    color: #d2bed9;
+}
+
+.imgContainer {
+    margin-top: 35px;
+}
+
+.cards {
+    padding-bottom: 80px;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+}
+
+.card-img-container {
+    width: 100%;
+    padding-top: 56.25%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+}
+
+.card-img-container img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+body {
+    background-color: #393e41;
+}
+
+.titleProyect {
+    display: flex;
+    justify-content: center;
+    color: #74d3ae;
+    font-weight: bold;
+}
+
+.titleCard {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: #d2bed9;
+    font-weight: bold;
+}
+
+.botonView {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.buttonProjects {
+    background-color: #d2a1a3;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.buttonProjects:hover {
+    background: rgb(173, 77, 165);
+    background: linear-gradient(0deg, rgb(192, 173, 199) 0%, rgb(210, 190, 217) 100%);
+    font-weight: bold;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.squareContact {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+li>button {
+    color: #ad6568 !important;
+    font-weight: bold;
+}
+
+.card-img-container {
+    display: inline-block;
+    position: relative;
+}
+
+.card-img-container>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    padding: 15px;
+    margin: 0;
+    background-color: #F4ECE9;
+    height: 100%;
+    width: 100%;
+}
+
+.desvanecer:hover {
+    opacity: 0.09;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+h6 {
+    color: #ad6568;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.item-herramientas {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+
+}
