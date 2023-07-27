@@ -45,13 +45,10 @@
     transition: all 0.2s ease-out;
 }
 
-.bg-dark {
+.prueba {
     background-color: #E0E0E0 !important;
     z-index: 20;
     position: fixed;
     width: 100%;
 }
 
-.nav-link {
-    color: black !important;
-}

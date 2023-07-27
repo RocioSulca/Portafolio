@@ -6,7 +6,7 @@ function NavBar() {
   
     return (
       <div>
-         <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-3 zindex-fixed:1300">
+         <nav className="navbar navbar-expand-lg prueba px-3 zindex-fixed:1300">
           <div className="container-fluid">
 
             <button
@@ -38,7 +38,6 @@ function NavBar() {
             </div>
           </div>
         </nav> 
-        hola
       </div>
     );
   

@@ -5,13 +5,9 @@ import "./style.css";
 function Projects() {
   const projectsData = ProjectsItems.map((item, index) => {
     return (
-      <div className="col-lg-4 col-md-6" key={index}>
+      <div className="col-lg-4 col-md-6 mt-4" key={index}>
         <section className="cardContainer" >
           <h5 className="titleCard">{item.title}</h5>
-          {/* <div className="card-img-container">
-            <img src={item.image} alt="project img" />
-          </div> */}
-
           <div className="card-img-container">
             <div>
               <h6>Herramientas usadas:</h6>
@@ -19,7 +15,6 @@ function Projects() {
             </div>
             <img className="desvanecer" src={item.image} alt="project img" />
           </div>
-
           <p>{item.description}</p>
           <div className="botonView">
             <button className="buttonProjects">
