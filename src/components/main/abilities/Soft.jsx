@@ -18,8 +18,8 @@ export default function Soft() {
           </p>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-6">
-        <div className="card-img-container">
-          <img src={responsabilidad} alt="imagen responsabilidad" />
+          <div className="card-img-container">
+            <img src={responsabilidad} alt="imagen responsabilidad" />
           </div>
           <h6 className="softTitle mt-3">RESPONSABILIDAD</h6>
           <p>
@@ -28,15 +28,15 @@ export default function Soft() {
           </p>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-6">
-        <div className="card-img-container">
-          <img src={versatilidad} alt="imagen responsabilidad" />
+          <div className="card-img-container">
+            <img src={versatilidad} alt="imagen responsabilidad" />
           </div>
           <h6 className="softTitle mt-3">AUTOAPRENDIZAJE</h6>
           <div className="d-flex justify-content-center">
-          <p >
-          Me gusta aprender constantemente, descubrir nuevas cosas y expandir mi conocimiento 
-          de manera autónoma.
-          </p>
+            <p >
+              Me gusta aprender constantemente, descubrir nuevas cosas y expandir mi conocimiento
+              de manera autónoma.
+            </p>
           </div>
         </div>
       </section>

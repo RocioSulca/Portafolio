@@ -45,7 +45,7 @@ function Projects() {
 
   return (
     <div id="proyectos">
-      <h1 className="titleProyect">PROYECTOS</h1>
+      <h1 className="titleProyect title">PROYECTOS</h1>
       <section className="containerProject">
         <section className="cards">
           <div className="container">

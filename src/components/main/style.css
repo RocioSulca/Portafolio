@@ -96,7 +96,7 @@ h4,
 .display-1 {
     color: #74d3ae;
     font-weight: bold;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 .inicial {
@@ -239,6 +239,3 @@ h6 {
     font-weight: 600;
 
 }
-
-
-

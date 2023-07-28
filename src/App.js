@@ -13,15 +13,14 @@ import Footer from './components/footer/Footer'
 function App() {
   return (
     <div className="App hol">
-      
-      <header><NavBar/></header>
+      <header><NavBar /></header>
       <section><Inicial /></section>
       <section><AboutMe /></section>
       <section><Projects /></section>
       <section><Abilities /></section>
       <section><Contact /> </section>
       <footer><Footer /> </footer>
-      
+
     </div>
   );
 }

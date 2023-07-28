@@ -13,17 +13,17 @@ export default function Abilities() {
 
     return (
         <div id='habilidades'>
-            <h1 className='titleAbilities' >HABILIDADES</h1>
+            <h1 className='titleAbilities title' >HABILIDADES</h1>
             <ul className="nav nav-tabs habilidades">
                 <li className="nav-item">
-                       <button className={toggleState === 1 ? "nav-link active" : "nav-link"} onClick={() => toggleTab(1)} aria-current="page" >Habilidades Técnicas</button>
+                    <button className={toggleState === 1 ? "nav-link active" : "nav-link"} onClick={() => toggleTab(1)} aria-current="page" >Habilidades Técnicas</button>
                 </li>
                 <li className="nav-item">
                     <button className={toggleState === 2 ? "nav-link active" : "nav-link"} onClick={() => toggleTab(2)}>Habilidades Blandas</button>
                 </li>
             </ul>
             <div>
-                {toggleState === 2 ? <Soft /> : <Tecs /> }
+                {toggleState === 2 ? <Soft /> : <Tecs />}
             </div>
         </div>
     )
