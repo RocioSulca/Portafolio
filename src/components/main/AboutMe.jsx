@@ -11,10 +11,7 @@ function AboutMe() {
           <div className="col-md-12">
             <h1 className="titleProyect title">SOBRE MI</h1>
             <p className="text-aboutMe">
-              ¡Hola! Soy una apasionada desarrolladora Front-End, con experiencia en el desarrollo de proyectos web colaborativos, empleando metodologías ágiles, HTML5,
-              CSS3 y JavaScript, con el framework React. Siempre estoy buscando soluciones creativas y eficientes para los desafíos técnicos
-              que se me presentan. Me gusta aprender cosas nuevas cada día, siempre buscando oportunidades para mejorar mis habilidades y conocimientos
-              en el desarrollo web.
+            Soy una apasionada desarrolladora Frontend. Me encanta aprender constantemente y afrontar nuevos retos. Cuento con experiencia en el desarrollo de proyectos web colaborativos, empleando metodologías ágiles y utilizando HTML5, CSS3 y JavaScript. Siempre busco soluciones creativas y eficientes para los desafíos técnicos que se me presentan.
             </p>
             <div className="buttonContactme mb-5">
               <a className="btn btn-primary buttonCv" href={Cv}
